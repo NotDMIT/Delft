@@ -3,7 +3,7 @@
   "id" : "https://NotDMIT.github.io/Delft/manifests/02_manifest.json",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "Blank Manifest" ]
+    "en" : [ "Delft 01 Manifest" ]
   },
   "items" : [ {
     "id" : "https://example.org/4pwh8jimqpi-mbggz3rg/canvas/8ylp63muyq6-mbgh1mvm",
