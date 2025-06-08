@@ -1,0 +1,15 @@
+{
+  "id" : "https://NotDMIT.github.io/Delft/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in NotDMIT/Delft project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://NotDMIT.github.io/Delft/manifests/01_manifest.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
