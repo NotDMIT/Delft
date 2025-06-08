@@ -17,5 +17,9 @@
       "en" : [ "Blank Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://NotDMIT.github.io/Delft/manifests/https://images.historicnewengland.org/iiif/3/30675/info.json",
+    "label" : null,
+    "type" : "ImageService3"
   } ]
 }
