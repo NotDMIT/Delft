@@ -1,0 +1,113 @@
+{
+  "@type" : "sc:Manifest",
+  "@id" : "https://iiif.europeana.eu/presentation/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721/manifest",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "label" : [ {
+    "@language" : "en",
+    "@value" : "tile"
+  }, {
+    "@language" : "de",
+    "@value" : "Fliese"
+  } ],
+  "description" : [ {
+    "@language" : "en",
+    "@value" : "Tile shows typical Dutch landscape motif with houses and sailing ship"
+  }, {
+    "@language" : "de",
+    "@value" : "Fayence-Fliese mit blauer Bemalung und weißer Zinnglasur, Delft (?) um 1800, typisch holländischen Landschaftsmotiv einschließlich Segelbooten, Ecken sind mit stilisierten floralen Motiven geschmückt."
+  }, {
+    "@language" : "de",
+    "@value" : "Fliese zeigt typisch holländisches Landschaftsmotiv mit Häusern und Segelschiff"
+  } ],
+  "metadata" : [ {
+    "label" : "format",
+    "value" : [ {
+      "@language" : "en",
+      "@value" : "Tin glaze, white"
+    }, {
+      "@language" : "en",
+      "@value" : "Painting, blue"
+    }, {
+      "@language" : "de",
+      "@value" : "Zinnglasur, weiß"
+    }, {
+      "@language" : "de",
+      "@value" : "Bemalung, blau"
+    } ]
+  }, {
+    "label" : "type",
+    "value" : [ {
+      "@language" : "de",
+      "@value" : "Mobiliari"
+    }, {
+      "@value" : "http://data.europeana.eu/concept/1759"
+    }, {
+      "@language" : "en",
+      "@value" : "tile"
+    }, {
+      "@language" : "en",
+      "@value" : "Mobiliari"
+    }, {
+      "@language" : "de",
+      "@value" : "Fliese"
+    }, {
+      "@value" : "http://udcdata.info/rdf/025209"
+    }, {
+      "@value" : "http://vocab.getty.edu/aat/300037335"
+    } ]
+  } ],
+  "thumbnail" : {
+    "@type" : "dctypes:Image",
+    "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.stadtmuseum.leipzig.de%2FDE-MUS-853418%2Fmedien%2FwmZoom%3DPO000721&type=IMAGE"
+  },
+  "attribution" : "(en) tile - https://www.europeana.eu/item/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721. Stadtgeschichtliches Museum Leipzig - https://www.stadtmuseum.leipzig.de/DE-MUS-853418/objekt=PO000721. CC BY-NC-SA - http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "logo" : "https://style.europeana.eu/images/europeana-logo-default.png",
+  "seeAlso" : [ {
+    "@id" : "https://api.europeana.eu/record/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721.json-ld",
+    "format" : "application/ld+json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721.json",
+    "format" : "application/json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721.rdf",
+    "format" : "application/rdf+xml",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  } ],
+  "service" : {
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "@id" : "https://iiif.europeana.eu/presentation/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721/search",
+    "profile" : "http://iiif.io/api/search/1/search"
+  },
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "startCanvas" : "https://iiif.europeana.eu/presentation/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721/canvas/p1",
+    "canvases" : [ {
+      "@type" : "sc:Canvas",
+      "@id" : "https://iiif.europeana.eu/presentation/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721/canvas/p1",
+      "label" : "p. 1",
+      "height" : 708,
+      "width" : 656,
+      "attribution" : "(en) tile - https://www.europeana.eu/item/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721. Stadtgeschichtliches Museum Leipzig - https://www.stadtmuseum.leipzig.de/DE-MUS-853418/objekt=PO000721. CC BY-NC-SA - http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "@id" : "https://www.stadtmuseum.leipzig.de/DE-MUS-853418/medien/wmZoom=PO000721",
+          "format" : "image/jpeg",
+          "height" : 708,
+          "width" : 656
+        },
+        "on" : "https://iiif.europeana.eu/presentation/08547/Museu_ProvidedCHO_Stadtgeschichtliches_Museum_Leipzig_PO000721/canvas/p1"
+      } ],
+      "thumbnail" : {
+        "@type" : "dctypes:Image",
+        "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.stadtmuseum.leipzig.de%2FDE-MUS-853418%2Fmedien%2FwmZoom%3DPO000721&type=TEXT"
+      }
+    } ]
+  } ]
+}

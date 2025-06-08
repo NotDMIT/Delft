@@ -1,0 +1,100 @@
+{
+  "@type" : "sc:Manifest",
+  "@id" : "https://iiif.europeana.eu/presentation/2048001/AP_10103331/manifest",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "label" : [ {
+    "@language" : "en",
+    "@value" : "Small vessel, figures and landscape"
+  }, {
+    "@language" : "nl",
+    "@value" : "Scheepje, figuren en landschap"
+  } ],
+  "metadata" : [ {
+    "label" : "date",
+    "value" : [ {
+      "@value" : "#1701%2F1800"
+    }, {
+      "@value" : "#1701%2F1800"
+    }, {
+      "@value" : " 1701/1800"
+    } ]
+  }, {
+    "label" : "format",
+    "value" : [ {
+      "@language" : "en",
+      "@value" : "Baking [pottery] painted glazes"
+    }, {
+      "@language" : "nl",
+      "@value" : "bakken[aardewerk] geschilderd glazuren"
+    } ]
+  }, {
+    "label" : "type",
+    "value" : [ {
+      "@language" : "en",
+      "@value" : "tile wall"
+    }, {
+      "@language" : "en",
+      "@value" : "Ceramic, Flat"
+    }, {
+      "@language" : "nl",
+      "@value" : "tegelwand"
+    }, {
+      "@language" : "nl",
+      "@value" : "Ceramiek, Plateel"
+    } ]
+  } ],
+  "thumbnail" : {
+    "@type" : "dctypes:Image",
+    "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fbalat.kikirpa.be%2Ftimthumb.php%3Fsrc%3Dhttp%3A%2F%2Fbalat.kikirpa.be%2Fimage%2Fthumbnail%2FB133970.jpg%26q%3D75%26w%3D250&type=IMAGE"
+  },
+  "attribution" : "(en) Small vessel, figures and landscape - https://www.europeana.eu/item/2048001/AP_10103331. (en) unknown. Royal Institute for Cultural Heritage - http://balat.kikirpa.be/object/104545. CC BY-NC-SA - http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "license" : "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "logo" : "https://style.europeana.eu/images/europeana-logo-default.png",
+  "seeAlso" : [ {
+    "@id" : "https://api.europeana.eu/record/2048001/AP_10103331.json-ld",
+    "format" : "application/ld+json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/2048001/AP_10103331.json",
+    "format" : "application/json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/2048001/AP_10103331.rdf",
+    "format" : "application/rdf+xml",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  } ],
+  "service" : {
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "@id" : "https://iiif.europeana.eu/presentation/2048001/AP_10103331/search",
+    "profile" : "http://iiif.io/api/search/1/search"
+  },
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "startCanvas" : "https://iiif.europeana.eu/presentation/2048001/AP_10103331/canvas/p1",
+    "canvases" : [ {
+      "@type" : "sc:Canvas",
+      "@id" : "https://iiif.europeana.eu/presentation/2048001/AP_10103331/canvas/p1",
+      "label" : "p. 1",
+      "height" : 850,
+      "width" : 819,
+      "attribution" : "(en) Small vessel, figures and landscape - https://www.europeana.eu/item/2048001/AP_10103331. (en) unknown. Royal Institute for Cultural Heritage - http://balat.kikirpa.be/object/104545. CC BY-NC-SA - http://creativecommons.org/licenses/by-nc-sa/3.0/",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "@id" : "http://balat.kikirpa.be/image/thumbnail/B133970.jpg",
+          "format" : "image/jpeg",
+          "height" : 850,
+          "width" : 819
+        },
+        "on" : "https://iiif.europeana.eu/presentation/2048001/AP_10103331/canvas/p1"
+      } ],
+      "thumbnail" : {
+        "@type" : "dctypes:Image",
+        "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fbalat.kikirpa.be%2Fimage%2Fthumbnail%2FB133970.jpg&type=TEXT"
+      }
+    } ]
+  } ]
+}

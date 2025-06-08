@@ -1,0 +1,48 @@
+{
+	"@context": "http://iiif.io/api/image/3/context.json",
+	"id": "https://iiif.micr.io/TwKyw",
+	"type": "ImageService3",
+	"protocol": "http://iiif.io/api/image",
+	"profile": "level2",
+	"qualities": [
+		"default",
+		"gray",
+		"color"
+	],
+	"formats": [
+		"jpg",
+		"png",
+		"webp"
+	],
+	"tiles": [
+		{
+			"scaleFactors": [
+				1,
+				2,
+				4,
+				8
+			],
+			"width": 1024,
+			"height": 1024
+		}
+	],
+	"created": "2020-06-29T13:05:14.178Z",
+	"lastModified": "2025-06-06T11:15:24.096Z",
+	"title": "BK-NM-3312-Original-Cropped.jpg",
+	"slug": null,
+	"width": 5254,
+	"height": 5254,
+	"mapType": 0,
+	"is360": false,
+	"taken": null,
+	"version": "3.1",
+	"tileSize": 1024,
+	"legacyTiles": false,
+	"organisation": {
+		"image": "https://rijks-micrio.azureedge.net/organisations/c334286f-827e-969a-50a6-ef35d584b998.jpg",
+		"baseUrl": "https://micrio.rijksmuseum.nl/",
+		"name": "Rijks Collectie",
+		"href": "https://www.rijksmuseum.nl"
+	},
+	"cultures": ""
+}

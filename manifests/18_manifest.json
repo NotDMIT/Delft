@@ -1,0 +1,86 @@
+        
+       
+        
+        
+             
+{
+ "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://collections.st-andrews.ac.uk/1001266/manifest",
+  "label": "Dutch ox-head tile",
+  "description": "The blue and white tile depicts a swan (or goose?) with a speckled breast on a river, with two boats and a building in the background. The tile has ox-head corners.",
+  "logo": "https://collections.st-andrews.ac.uk/uv/logo.png",  
+  "metadata": [
+    { "label": "Identifier", "value": "HC2000.15(2)"},
+    { "label": "Title", "value": "Dutch ox-head tile"},
+    
+
+   
+
+
+
+  { "label": "Creator", "value": " <a href='https://collections.st-andrews.ac.uk/search/?query=ArtistIRN:1000044&form=grid&mode=query'>unknown  (Manufactured by) </a>,"},
+    { "label": "Record URL", "value": "<a href='https://collections.st-andrews.ac.uk/item/dutch-ox-head-tile/1001266'>https://collections.st-andrews.ac.uk/item/dutch-ox-head-tile/1001266</a>"},      
+
+ { "label": "Subjects", "value": " <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"DUTCH\"&form=grid&mode=query'>DUTCH</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"FIREPLACE\"&form=grid&mode=query'>FIREPLACE</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"LANDSCAPE\"&form=grid&mode=query'>LANDSCAPE</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"BOAT\"&form=grid&mode=query'>BOAT</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"WARDLAW\"&form=grid&mode=query'>WARDLAW</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"RIVER\"&form=grid&mode=query'>RIVER</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"SWAN\"&form=grid&mode=query'>SWAN</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"UNIVERSITY%20HALL\"&form=grid&mode=query'>UNIVERSITY HALL</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"WESTERLEA\"&form=grid&mode=query'>WESTERLEA</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"BIRD\"&form=grid&mode=query'>BIRD</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"OX-HEAD\"&form=grid&mode=query'>OX-HEAD</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"tile\"&form=grid&mode=query'>tile</a>,            <a href='https://collections.st-andrews.ac.uk/search/?query=Subject:\"WATER\"&form=grid&mode=query'>WATER</a>            "},
+     { "label": "Department", "value": "Museums" },
+    { "label": "Collection", "value": "<a href='https://collections.st-andrews.ac.uk/collection/heritage-collection/1022238'>Heritage Collection</a>" },
+    { "label": "Parent", "value": "<a href='https://collections.st-andrews.ac.uk/series/dutch-ox-head-tile/1001253'>Dutch ox-head tile</a> (Item)" },
+    { "label": "Record level", "value": "Item" },  
+     { "label": "Credit line", "value": "Image Courtesy of the University of St Andrews Library, ID HC2000.15(2)" },
+    
+    { "label": "IRN", "value": "1001266"},  
+    { "label": "Image delivery", "value": "Working in partnership with <a href='https://kakadusoftware.com/'>Kakadu</a> to deliver high quality image reproductions via IIIF."}
+    
+  ],
+"sequences": [
+    {
+      "@type": "sc:Sequence",
+       "viewingHint" :"individuals",  
+        "viewingDirection" :"left-to-right",
+      "canvases": [  
+      
+      
+      
+      
+             {
+          "@type": "sc:Canvas",
+          "@id": "https://collections.st-andrews.ac.uk/1001266/manifest/canvas/1003380",
+          "otherContent": [
+          { "@id":"https://collections.st-andrews.ac.uk/annotation/1001266/1003380", "@type":"sc:AnnotationList"},
+          { "@id":"https://collections.st-andrews.ac.uk/ai/anno/all/1001266/1003380/2000/2000", "@type":"sc:AnnotationList"}
+          
+          ],
+          "label": "Dutch ox-head tile",     
+            "width":2000
+          ,"height":2000,     
+          "thumbnail" : {
+               "@id" : "https://collections.st-andrews.ac.uk/media/1003380/1003380.thumb.jpg",
+               "@type": "dctypes:Image",
+               "width": 100,
+               "height": 100
+         },
+          "images": [
+            {
+              "@type": "dctypes:Image",
+              "motivation": "sc:painting",
+              "on": "https://collections.st-andrews.ac.uk/1001266/manifest/canvas/1003380",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://collections.st-andrews.ac.uk/iiif/2/1003380~1003380/full/full/0/default.jpg",
+                "format": "image/jpeg"    
+            ,"width":2000
+          ,"height":2000, 
+           "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://collections.st-andrews.ac.uk/iiif/2/1003380~1003380",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+            }
+                }
+            }
+            ]
+            }
+            
+   ]
+}]
+}

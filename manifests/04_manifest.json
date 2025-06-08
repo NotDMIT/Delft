@@ -1,0 +1,109 @@
+{
+  "@type" : "sc:Manifest",
+  "@id" : "https://iiif.europeana.eu/presentation/15514/KE_2840_1/manifest",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "label" : [ {
+    "@language" : "de",
+    "@value" : "Fliese"
+  }, {
+    "@language" : "en",
+    "@value" : "tile"
+  } ],
+  "description" : [ {
+    "@language" : "en",
+    "@value" : "with blue"
+  }, {
+    "@language" : "de",
+    "@value" : "mit blau"
+  } ],
+  "metadata" : [ {
+    "label" : "type",
+    "value" : [ {
+      "@value" : "http://vocab.getty.edu/aat/300379948"
+    } ]
+  }, {
+    "label" : "language",
+    "value" : [ {
+      "@value" : "deu"
+    }, {
+      "@value" : "de"
+    } ]
+  } ],
+  "thumbnail" : {
+    "@type" : "dctypes:Image",
+    "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fsammlung.mak.at%2Fimg%2F300x300%2Fpublikationsbilder%2Fke-2840-1_1.jpg&type=IMAGE"
+  },
+  "attribution" : "(en) tile - https://www.europeana.eu/item/15514/KE_2840_1. MAK – Museum für angewandte Kunst - https://sammlung.mak.at/sammlung_online?id=collect-6507. In Copyright - http://rightsstatements.org/vocab/InC/1.0/",
+  "license" : "http://rightsstatements.org/vocab/InC/1.0/",
+  "logo" : "https://style.europeana.eu/images/europeana-logo-default.png",
+  "seeAlso" : [ {
+    "@id" : "https://api.europeana.eu/record/15514/KE_2840_1.json-ld",
+    "format" : "application/ld+json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/15514/KE_2840_1.json",
+    "format" : "application/json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/15514/KE_2840_1.rdf",
+    "format" : "application/rdf+xml",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  } ],
+  "service" : {
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "@id" : "https://iiif.europeana.eu/presentation/15514/KE_2840_1/search",
+    "profile" : "http://iiif.io/api/search/1/search"
+  },
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "startCanvas" : "https://iiif.europeana.eu/presentation/15514/KE_2840_1/canvas/p1",
+    "canvases" : [ {
+      "@type" : "sc:Canvas",
+      "@id" : "https://iiif.europeana.eu/presentation/15514/KE_2840_1/canvas/p1",
+      "label" : "p. 1",
+      "height" : 1200,
+      "width" : 1200,
+      "attribution" : "(en) tile - https://www.europeana.eu/item/15514/KE_2840_1. MAK – Museum für angewandte Kunst - https://sammlung.mak.at/sammlung_online?id=collect-6507. In Copyright - http://rightsstatements.org/vocab/InC/1.0/",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "@id" : "https://sammlung.mak.at/img/1200x1200/publikationsbilder/ke-2840-1_1.jpg",
+          "format" : "image/jpeg",
+          "height" : 1200,
+          "width" : 1200
+        },
+        "on" : "https://iiif.europeana.eu/presentation/15514/KE_2840_1/canvas/p1"
+      } ],
+      "thumbnail" : {
+        "@type" : "dctypes:Image",
+        "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fsammlung.mak.at%2Fimg%2F1200x1200%2Fpublikationsbilder%2Fke-2840-1_1.jpg&type=TEXT"
+      }
+    }, {
+      "@type" : "sc:Canvas",
+      "@id" : "https://iiif.europeana.eu/presentation/15514/KE_2840_1/canvas/p2",
+      "label" : "p. 2",
+      "height" : 1200,
+      "width" : 1200,
+      "attribution" : "(en) tile - https://www.europeana.eu/item/15514/KE_2840_1. MAK – Museum für angewandte Kunst - https://sammlung.mak.at/sammlung_online?id=collect-6507. In Copyright - http://rightsstatements.org/vocab/InC/1.0/",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "@id" : "https://sammlung.mak.at/img/1200x1200/publikationsbilder/ke-2840-1_2.jpg",
+          "format" : "image/jpeg",
+          "height" : 1200,
+          "width" : 1200
+        },
+        "on" : "https://iiif.europeana.eu/presentation/15514/KE_2840_1/canvas/p2"
+      } ],
+      "thumbnail" : {
+        "@type" : "dctypes:Image",
+        "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fsammlung.mak.at%2Fimg%2F1200x1200%2Fpublikationsbilder%2Fke-2840-1_2.jpg&type=TEXT"
+      }
+    } ]
+  } ]
+}

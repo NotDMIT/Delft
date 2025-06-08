@@ -1,0 +1,83 @@
+{
+  "@type" : "sc:Manifest",
+  "@id" : "https://iiif.europeana.eu/presentation/79/resource_document_museumboerhaave_V09979/manifest",
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "label" : [ {
+    "@language" : "en",
+    "@value" : "Tile (delft blue) with pharmacist using mortar and pestle"
+  }, {
+    "@language" : "nl",
+    "@value" : "Tegel (delftsblauw) met apotheker die in vijzel stampt"
+  } ],
+  "metadata" : [ {
+    "label" : "date",
+    "value" : [ {
+      "@value" : "#1650%2F1700"
+    }, {
+      "@value" : "1650 - 1700"
+    } ]
+  }, {
+    "label" : "type",
+    "value" : [ {
+      "@language" : "en",
+      "@value" : "Tile (delft blue) with pharmacist using mortar and pestle"
+    }, {
+      "@language" : "nl",
+      "@value" : "Tegel (delftsblauw) met apotheker die in vijzel stampt"
+    } ]
+  } ],
+  "thumbnail" : {
+    "@type" : "dctypes:Image",
+    "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fmmb-web.adlibhosting.com%2Fais6%2Fwebapi%2Fwwwopac.ashx%3Fcommand%3Dgetcontent%26server%3Dimages%26value%3DVoorwerpen%2520Adlib%2F0-9000%2FV09979.jpg&type=IMAGE"
+  },
+  "attribution" : "(en) Tile (delft blue) with pharmacist using mortar and pestle - https://www.europeana.eu/item/79/resource_document_museumboerhaave_V09979. Rijksmuseum Boerhaave - https://boerhaave.adlibhosting.com/Details/collect/18221. In Copyright - http://rightsstatements.org/vocab/InC/1.0/",
+  "license" : "http://rightsstatements.org/vocab/InC/1.0/",
+  "logo" : "https://style.europeana.eu/images/europeana-logo-default.png",
+  "seeAlso" : [ {
+    "@id" : "https://api.europeana.eu/record/79/resource_document_museumboerhaave_V09979.json-ld",
+    "format" : "application/ld+json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/79/resource_document_museumboerhaave_V09979.json",
+    "format" : "application/json",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  }, {
+    "@id" : "https://api.europeana.eu/record/79/resource_document_museumboerhaave_V09979.rdf",
+    "format" : "application/rdf+xml",
+    "profile" : "http://www.europeana.eu/schemas/edm/"
+  } ],
+  "service" : {
+    "@context" : "http://iiif.io/api/search/1/context.json",
+    "@id" : "https://iiif.europeana.eu/presentation/79/resource_document_museumboerhaave_V09979/search",
+    "profile" : "http://iiif.io/api/search/1/search"
+  },
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "label" : "Current Page Order",
+    "startCanvas" : "https://iiif.europeana.eu/presentation/79/resource_document_museumboerhaave_V09979/canvas/p1",
+    "canvases" : [ {
+      "@type" : "sc:Canvas",
+      "@id" : "https://iiif.europeana.eu/presentation/79/resource_document_museumboerhaave_V09979/canvas/p1",
+      "label" : "p. 1",
+      "height" : 900,
+      "width" : 900,
+      "attribution" : "(en) Tile (delft blue) with pharmacist using mortar and pestle - https://www.europeana.eu/item/79/resource_document_museumboerhaave_V09979. Rijksmuseum Boerhaave - https://boerhaave.adlibhosting.com/Details/collect/18221. In Copyright - http://rightsstatements.org/vocab/InC/1.0/",
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@type" : "dctypes:Image",
+          "@id" : "https://mmb-web.adlibhosting.com/ais6/webapi/wwwopac.ashx?command=getcontent&server=images&value=Voorwerpen%20Adlib/0-9000/V09979.jpg",
+          "format" : "image/jpeg",
+          "height" : 900,
+          "width" : 900
+        },
+        "on" : "https://iiif.europeana.eu/presentation/79/resource_document_museumboerhaave_V09979/canvas/p1"
+      } ],
+      "thumbnail" : {
+        "@type" : "dctypes:Image",
+        "@id" : "https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fmmb-web.adlibhosting.com%2Fais6%2Fwebapi%2Fwwwopac.ashx%3Fcommand%3Dgetcontent%26server%3Dimages%26value%3DVoorwerpen%2520Adlib%2F0-9000%2FV09979.jpg&type=TEXT"
+      }
+    } ]
+  } ]
+}
